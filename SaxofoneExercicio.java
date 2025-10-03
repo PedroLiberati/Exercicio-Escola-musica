@@ -3,7 +3,7 @@ package com.mycompany.escolamusica;
 public class SaxofoneExercicio extends InstrumentoMusical {
     private int numeroDeChaves;
 
-    public SaxofoneExercicio(String material, int numeroDeChaves) {
+    public SaxofoneExercicio(String material, String latão, int numeroDeChaves) {
         super("Saxofone", material);
         this.numeroDeChaves = numeroDeChaves;
     }
